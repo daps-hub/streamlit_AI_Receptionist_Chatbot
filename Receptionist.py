@@ -24,7 +24,7 @@ import pandas as pd
 
 #from langchain_core.tools import tool
 
-from langchain_chroma import Chroma
+#from langchain_chroma import Chroma
 
 from langchain_community.vectorstores import FAISS
 
@@ -185,4 +185,4 @@ def send_email(chat_history):
     except Exception as e:
         return str(e)
 
-    
+   
