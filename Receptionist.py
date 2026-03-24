@@ -53,8 +53,8 @@ OPENAI_API_KEY=os.environ['OPENAI_API_KEY']
 #@st.cache_data
 #PyPDFLoader('C:\\Hotel\\Items.pdf')
 loaders = [
-PyPDFLoader('Hotel\\Items.pdf'),
-PyPDFLoader('Hotel\\Services.pdf')
+PyPDFLoader('Items.pdf'),
+PyPDFLoader('Services.pdf')
 ]
 pages = []
 for loader in loaders:
@@ -128,7 +128,7 @@ def send_and_feedback():
     if st.session_state.messages:
         result = send_email(st.session_state.messages)
         if result is True:
-            st.success("Email sent successfully!")
+            st.success("Notification sent successfully!")
         else:
             st.error(f"Error: {result}")
     else:
@@ -184,7 +184,5 @@ def send_email(chat_history):
         return True
     except Exception as e:
         return str(e)
-
-
 
     
