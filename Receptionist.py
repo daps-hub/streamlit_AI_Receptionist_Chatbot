@@ -22,7 +22,7 @@ import streamlit as st
 
 import pandas as pd
 
-from langchain_core.tools import tool
+#from langchain_core.tools import tool
 
 from langchain_chroma import Chroma
 
