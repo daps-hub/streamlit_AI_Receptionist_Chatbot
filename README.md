@@ -24,3 +24,22 @@ Help to open door
 Help to carry luggage
 Help to control noise
 Help to lift customer up
+
+To run AI Receptionist you need this packages
+#pip install langchain
+
+#pip install openai
+
+#pip install langchain-core
+
+#pip install langchain-community
+
+#pip install -U langchain-openai
+
+#pip install chromadb
+
+#pip install streamlit
+
+#pip install python-dotenv
+
+#pip install pandas
