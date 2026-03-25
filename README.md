@@ -25,7 +25,7 @@ Help to carry luggage
 Help to control noise
 Help to lift customer up
 
-To run AI Receptionist you need this packages
+To run AI Receptionist you need your open ai key and these packages
 #pip install langchain
 
 #pip install openai
